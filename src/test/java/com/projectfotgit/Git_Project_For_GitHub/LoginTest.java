@@ -4,6 +4,7 @@ package com.projectfotgit.Git_Project_For_GitHub;
 
 import java.util.concurrent.TimeUnit;
 
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -19,6 +20,7 @@ public static WebDriver driver;
 	public void setUp(){
 		System.setProperty("webdriver.chrome.driver", "C:\\SeleniumDrivers\\LatestChromeDriverExe\\chromedriver.exe");
 		driver=new ChromeDriver();
+		System.out.println("Launching Browser");
 		
 		}
 	
